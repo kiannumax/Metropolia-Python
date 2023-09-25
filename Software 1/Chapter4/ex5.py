@@ -1,7 +1,7 @@
 
 attempts = 0
 
-while True:
+while attempts < 5:
     username = input("Enter your username >> ")
     password = input("Enter your password >> ")
 
@@ -9,10 +9,9 @@ while True:
         print("Welcome!")
         break
 
-    elif attempts == 4:
-        print("Access Denied!")
-        break
-
     else:
         print("Please re-enter use info again:")
         attempts += 1
+
+else:
+    print("Access Denied!")

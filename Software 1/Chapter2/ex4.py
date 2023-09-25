@@ -10,7 +10,7 @@ def sum(ints):
 def product(ints):
     product = 1
 
-     for intg in ints:
+    for intg in ints:
         product *= int(intg)
 
     return product

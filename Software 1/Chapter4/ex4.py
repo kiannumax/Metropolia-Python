@@ -1,6 +1,6 @@
 from random import randint
 
-num = randint(1, 11)
+num = randint(1, 10)
 
 while True:
     guess = input("Your guess >> ")
