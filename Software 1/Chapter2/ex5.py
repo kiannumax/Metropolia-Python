@@ -8,11 +8,10 @@ def poundToLots(pounds):
 def lotsToGramds(lots):
     return lots * 13.3
 
+
 talents = float(input("Enter talents >> "))
-
-pounds = float(input("Enter pounds >> "))
-
-lots = float(input("Enter lots >> "))
+pounds  = float(input("Enter pounds >> "))
+lots    = float(input("Enter lots >> "))
 
 grams = lotsToGramds(lots + (poundToLots(pounds + (talToPound(talents)))))
 

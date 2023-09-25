@@ -9,5 +9,5 @@ def randCombination(digits, rang):
 
     return combination
 
-print(f"3digit: {randCombination(3, [0, 10])} "
-      f"4digit: {randCombination(4, [1, 7])}")
+print(f"Random 3-digit code: {randCombination(3, (0, 10))}\n"
+      f"Random 4-digit code: {randCombination(4, (1, 7))}")
