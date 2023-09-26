@@ -1,4 +1,6 @@
 
+# You can list multiple chapters at once by separating them by a space
+# For example, '3 4' will execute exercises from chapter 3 and 4
 def callChapters():
     chaps = input("Insert Chapters that you are interested in >> ").split()
 
