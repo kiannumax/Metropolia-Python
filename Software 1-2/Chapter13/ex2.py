@@ -15,7 +15,7 @@ connection = database.connect(
 
 
 @app.route('/airport/<icao>')
-def prime_number(icao):
+def airport(icao):
     try:
         sql  = f"SELECT airport.name, country.name FROM airport, country WHERE airport.ident = '{icao}' and country.iso_country = airport.iso_country;"
 
